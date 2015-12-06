@@ -9,13 +9,13 @@
 </head>
 <body>
   <main id="main" role="main">
-    <img src="biojs_64.png" style="height:38px;float:left;margin-right:10px"/><h1 class="title">Bio<span class="lighter">JS</span> 3.0</h1>
+    <img src="biojs_64.png" style="height:38px;float:left;margin-right:10px"/><h1 class="title">Bio<span class="lighter">JS</span> 3.0 </h1>
     <nav class="topnav">
       <ul><!--
-      --><li><a href="#examples">introduction</a> / </li><!--
-      --><li><a href="#learning">registry</a> / </li><!--
+      --><li><a href="#intro">introduction</a> / </li><!--
+      --><li><a href="http://biojs.io/">registry</a> / </li><!--
       --><li><a href="#community">community</a> / </li><!--
-      --><li><a href="http://stack.gl/packages/">docs</a></li><!--
+      --><li><a href="#">docs</a></li><!--
     --></ul>
     </nav>
 
@@ -24,9 +24,7 @@
       <a target="_blank" href="http://browserify.org">browserify</a>, <a target="_blank" href="https://www.polymer-project.org/1.0/">polymer</a> and
       <a target="_blank" href="http://npmjs.org">npm</a>. Inspired by the
       <a target="_blank" href="https://en.wikipedia.org/wiki/Unix_philosophy">Unix philosophy</a>,
-      BioJS components &quot;<em>do one thing, and do it well</em>&quot;. It is
-      easy to use BioJS components like Lego blocks on your website, and because it is written from the
-      bottom up, you can always drill down a layer. 
+      BioJS components &quot;<em>do one thing, and do it well</em>&quot;. BioJS 3.0 follows the <a target="_blank" href="http://webcomponents.org/">web component standard</a>, which makes it easy for biologists to plug in BioJS 3.0 components into their website.
     </section>
 
     <section id="examples" class="examples">
@@ -42,18 +40,20 @@
         if you have any questions!
       </p>
       <ul>
-        <li>Freenode IRC: <a href="http://webchat.freenode.net/?channels=stackgl">#biojs</a></li>
+        <li>Freenode IRC: <a href="http://webchat.freenode.net/?channels=biojs">#biojs</a></li>
         <li>GitHub: <a href="http://github.com/biojs">github.com/biojs</a></li>
       </ul>
       <p>
         biojs is only possible thanks to the excellent work of our contributors:
       </p>
       <ul>
-        <li><a target="_blank" href="http://twitter.com/daviddao_">David Dao</a> (Broad Institute)</li>
+        <li><a target="_blank" href="http://twitter.com/daviddao_">David Dao</a> (Broad Institute of MIT & Harvard)</li>
         <li><a target="_blank" href="http://twitter.com/greenify">Sebastian Wilzbach</a></li>
+        <li><a target="_blank" href="http://twitter.com/bene200">Benedikt Rauscher</a> (TGAC)</li>
+        <li><a target="_blank" href="http://twitter.com/bene200">Dennis Schwartz</a> (TGAC)</li>
       </ul>
       <p>
-        web design based on the wonderful <a src="http://github.com/stackgl">stackgl</a> project
+        <em>web design based on the gorgeous <a href="http://github.com/stackgl">stackgl</a> project</em>
       </p>
     </section>
   </main>
@@ -84,7 +84,7 @@
 
 </style>
 
-<script charset="utf-8" src="/build/bundle.min.js" defer="defer" async="async"></script>
+<script charset="utf-8" src="http://daviddao.github.io/biojs3/build/bundle.min.js" defer="defer" async="async"></script>
 <!--   <script charset="utf-8" src="/build/splash.min.js" defer="defer" async="async"></script>
  -->  
 <script src="//cdn.webglstats.com/stat.js" defer="defer" async="async"></script>
@@ -93,7 +93,7 @@
 var pv = require("bio-pv");
 var parent = document.getElementById('demo')
 var staticLabel = document.createElement('div')
-staticLabel.innerHTML = 'CRISPR/CAS9 rendered with <a>bio-pv</a>'
+staticLabel.innerHTML = 'CAS9 rendered with <a>bio-pv</a>'
 staticLabel.className = 'static-label'
 parent.appendChild(staticLabel)
 
@@ -123,17 +123,18 @@ function load(name, pdbId) {
     viewer.spin(true)
 
     // adapt zoom level to contain the whole structure
-    viewer.autoZoom();
+    viewer.autoZoom()
   });
 }
 
 
 // load default
-load('CAS9', '4oo8');
+load('CAS9', '4oo8')
+//load('Polymerase','1ZQA')
 
 // tell viewer to resize when window size changes.
 window.onresize = function(event) {
-  viewer.fitParent();
+  viewer.fitParent()
 }
 </script>
 </body>
