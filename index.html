@@ -21,11 +21,11 @@
 
     <section class="intro">
       BioJS 3.0 is an open software ecosystem for visualizing biological data on the web, built on top of
-      <a target="_blank" href="http://browserify.org">browserify</a> and
+      <a target="_blank" href="http://browserify.org">browserify</a>, <a target="_blank" href="https://www.polymer-project.org/1.0/">polymer</a> and
       <a target="_blank" href="http://npmjs.org">npm</a>. Inspired by the
       <a target="_blank" href="https://en.wikipedia.org/wiki/Unix_philosophy">Unix philosophy</a>,
       BioJS components &quot;<em>do one thing, and do it well</em>&quot;. It is
-      easy to use parts of BioJS à la carte, and because it is written from the
+      easy to use BioJS components like Lego blocks on your website, and because it is written from the
       bottom up, you can always drill down a layer. 
     </section>
 
@@ -93,7 +93,7 @@
 var pv = require("bio-pv");
 var parent = document.getElementById('demo')
 var staticLabel = document.createElement('div')
-staticLabel.innerHTML = 'CRISPR/CAS9 rendered in <a>bio-pv</a>'
+staticLabel.innerHTML = 'CRISPR/CAS9 rendered with <a>bio-pv</a>'
 staticLabel.className = 'static-label'
 parent.appendChild(staticLabel)
 

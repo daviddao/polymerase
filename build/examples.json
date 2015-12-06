@@ -1,146 +1,66 @@
 [
   {
-    "name": "glslb.in",
-    "link": "http://glslb.in/",
+    "name": "bio-pv",
+    "link": "http://biojs.io/d/bio-pv",
     "desc": "",
-    "thumb": "http://i.imgur.com/FBidEMu.jpg",
+    "thumb": "http://i.imgur.com/1cE2pDh.png",
     "featured": true,
     "i": 0
   },
   {
-    "name": "webgl-workshop",
-    "link": "http://github.com/stackgl/webgl-workshop",
-    "desc": "<p>An introduction to the WebGL API that runs in your browser. <strong>webgl-workshop</strong>\nis a <a href=\"http://nodeschool.io/\">NodeSchool workshop</a> originally created for\n<a href=\"http://campjs.com/\">CampJS IV</a>. Everything is powered by node.js, browserify and\na selection of stackgl packages under the hood.</p>",
-    "thumb": "http://i.imgur.com/vBJ7d6o.jpg",
+    "name": "d3-tree-of-life",
+    "link": "http://bl.ocks.org/mbostock/c034d66572fd6bd6815a",
+    "desc": "",
+    "thumb": "http://i.imgur.com/MFSMd7k.png",
     "featured": true,
     "i": 1
   },
   {
-    "name": "shader-school",
-    "link": "http://github.com/stackgl/shader-school",
+    "name": "angularplasmid",
+    "link": "http://biojs.io/d/angularplasmid",
     "desc": "",
-    "thumb": "http://imgur.com/hegi9dZ.png",
+    "thumb": "http://i.imgur.com/FN9cOrR.png",
     "featured": false,
     "i": 2
   },
   {
-    "name": "plotly",
-    "link": "https://plot.ly/javascript/open-source-announcement/",
+    "name": "msa",
+    "link": "http://biojs.io/d/msa",
     "desc": "",
-    "thumb": "http://i.imgur.com/BnD72G0.png",
+    "thumb": "http://i.imgur.com/mRM4UPu.png",
     "featured": false,
     "i": 3
   },
   {
-    "name": "understanding npm",
-    "link": "http://unpm.nodesource.com/",
+    "name": "muts-needle-plots",
+    "link": "http://biojs.io/d/muts-needle-plots",
     "desc": "",
-    "thumb": "http://i.imgur.com/P1wWlDx.jpg",
+    "thumb": "http://i.imgur.com/UPPgUHM.png",
     "featured": false,
     "i": 4
   },
   {
-    "name": "rust",
-    "link": "http://mattdesl.github.io/rust/",
+    "name": "drawrnajs",
+    "link": "http://biojs.io/d/drawrnajs",
     "desc": "",
-    "thumb": "http://i.imgur.com/0kNWm2g.png",
+    "thumb": "http://i.imgur.com/V12HJy1.png",
     "featured": false,
     "i": 5
   },
   {
-    "name": "bunny-walkthrough",
-    "link": "https://github.com/stackgl/bunny-walkthrough",
+    "name": "cyto-chromosome-vis",
+    "link": "http://biojs.io/d/cyto-chromosome-vis",
     "desc": "",
-    "thumb": "http://i.imgur.com/OefbPjB.jpg",
+    "thumb": "http://i.imgur.com/VmvqHn5.png",
     "featured": false,
     "i": 6
   },
   {
-    "name": "glsl-lighting-walkthrough",
-    "link": "https://github.com/stackgl/glsl-lighting-walkthrough",
+    "name": "inchlib",
+    "link": "http://biojs.io/d/biojs-vis-inchlib",
     "desc": "",
-    "thumb": "http://i.imgur.com/Ohqd9Ip.png",
+    "thumb": "http://i.imgur.com/jKYN3kx.png",
     "featured": false,
     "i": 7
-  },
-  {
-    "name": "voxel-fall",
-    "link": "http://hughsk.io/voxel-fall/",
-    "desc": "",
-    "thumb": "http://i.imgur.com/cnSkHJL.jpg",
-    "featured": false,
-    "i": 8
-  },
-  {
-    "name": "glsl.io",
-    "link": "http://glsl.io/",
-    "desc": "",
-    "thumb": "http://imgur.com/56SPiLL.png",
-    "featured": false,
-    "i": 9
-  },
-  {
-    "name": "run.south.im",
-    "link": "http://run.south.im/",
-    "desc": "",
-    "thumb": "http://imgur.com/kZjW5QD.png",
-    "featured": false,
-    "i": 10
-  },
-  {
-    "name": "nodesource.com",
-    "link": "http://nodesource.com/company",
-    "desc": "",
-    "thumb": "http://imgur.com/tCKuJfx.png",
-    "featured": false,
-    "i": 11
-  },
-  {
-    "name": "voxel-mipmap-demo",
-    "link": "https://github.com/mikolalysenko/voxel-mipmap-demo/",
-    "desc": "",
-    "thumb": "http://imgur.com/9eUBmfB.png",
-    "featured": false,
-    "i": 12
-  },
-  {
-    "name": "gif-3d",
-    "link": "http://mikolalysenko.github.io/gif-3d/",
-    "desc": "",
-    "thumb": "http://imgur.com/gItopw0.jpg",
-    "featured": false,
-    "i": 13
-  },
-  {
-    "name": "moire #1",
-    "link": "http://hughsk.io/moire-1",
-    "desc": "",
-    "thumb": "http://imgur.com/9tbJfnF.png",
-    "featured": false,
-    "i": 14
-  },
-  {
-    "name": "campjs '14",
-    "link": "http://hughsk.io/campjs",
-    "desc": "",
-    "thumb": "http://imgur.com/d47Vesp.png",
-    "featured": false,
-    "i": 15
-  },
-  {
-    "name": "particle-excess-demo",
-    "link": "https://github.com/hughsk/particle-excess-demo/",
-    "desc": "",
-    "thumb": "http://imgur.com/YyrtLqM.png",
-    "featured": false,
-    "i": 16
-  },
-  {
-    "name": "web-audio-analyser",
-    "link": "https://github.com/hughsk/web-audio-analyser/",
-    "desc": "",
-    "thumb": "http://imgur.com/xhPfMFP.png",
-    "featured": false,
-    "i": 17
   }
 ]
