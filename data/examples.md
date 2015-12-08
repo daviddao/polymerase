@@ -23,10 +23,6 @@ To add a new example:
 
 ![angularplasmid](http://i.imgur.com/FN9cOrR.png)
 
-## [msa](http://biojs.io/d/msa)
-
-![msa](http://i.imgur.com/mRM4UPu.png)
-
 ## [muts-needle-plots](http://biojs.io/d/muts-needle-plots)
 
 ![muts-needle-plots](http://i.imgur.com/UPPgUHM.png)

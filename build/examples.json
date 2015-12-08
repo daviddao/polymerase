@@ -24,20 +24,12 @@
     "i": 2
   },
   {
-    "name": "msa",
-    "link": "http://biojs.io/d/msa",
-    "desc": "",
-    "thumb": "http://i.imgur.com/mRM4UPu.png",
-    "featured": false,
-    "i": 3
-  },
-  {
     "name": "muts-needle-plots",
     "link": "http://biojs.io/d/muts-needle-plots",
     "desc": "",
     "thumb": "http://i.imgur.com/UPPgUHM.png",
     "featured": false,
-    "i": 4
+    "i": 3
   },
   {
     "name": "drawrnajs",
@@ -45,7 +37,7 @@
     "desc": "",
     "thumb": "http://i.imgur.com/V12HJy1.png",
     "featured": false,
-    "i": 5
+    "i": 4
   },
   {
     "name": "cyto-chromosome-vis",
@@ -53,7 +45,7 @@
     "desc": "",
     "thumb": "http://i.imgur.com/VmvqHn5.png",
     "featured": false,
-    "i": 6
+    "i": 5
   },
   {
     "name": "inchlib",
@@ -61,6 +53,6 @@
     "desc": "",
     "thumb": "http://i.imgur.com/jKYN3kx.png",
     "featured": false,
-    "i": 7
+    "i": 6
   }
 ]
