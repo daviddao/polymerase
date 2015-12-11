@@ -1,22 +1,22 @@
 [
   {
-    "name": "bio-pv",
-    "link": "http://biojs.io/d/bio-pv",
+    "name": "x-bio-pv",
+    "link": "http://daviddao.github.io/x-bio-pv/components/x-bio-pv/",
     "desc": "",
     "thumb": "http://i.imgur.com/1cE2pDh.png",
     "featured": true,
     "i": 0
   },
   {
-    "name": "d3-tree-of-life",
-    "link": "http://bl.ocks.org/mbostock/c034d66572fd6bd6815a",
+    "name": "exelixis",
+    "link": "https://github.com/daviddao/exelixis",
     "desc": "",
     "thumb": "http://i.imgur.com/MFSMd7k.png",
     "featured": true,
     "i": 1
   },
   {
-    "name": "angularplasmid",
+    "name": "x-angularplasmid",
     "link": "http://biojs.io/d/angularplasmid",
     "desc": "",
     "thumb": "http://i.imgur.com/FN9cOrR.png",
@@ -24,31 +24,31 @@
     "i": 2
   },
   {
-    "name": "muts-needle-plots",
-    "link": "http://biojs.io/d/muts-needle-plots",
+    "name": "x-muts-needle-plot",
+    "link": "http://daviddao.github.io/x-muts-needle-plot/components/x-muts-needle-plot/",
     "desc": "",
     "thumb": "http://i.imgur.com/UPPgUHM.png",
     "featured": false,
     "i": 3
   },
   {
-    "name": "drawrnajs",
-    "link": "http://biojs.io/d/drawrnajs",
+    "name": "x-drawrnajs",
+    "link": "http://daviddao.github.io/x-drawrnajs",
     "desc": "",
     "thumb": "http://i.imgur.com/V12HJy1.png",
     "featured": false,
     "i": 4
   },
   {
-    "name": "cyto-chromosome-vis",
-    "link": "http://biojs.io/d/cyto-chromosome-vis",
+    "name": "x-cyto-chromosome-vis",
+    "link": "http://linjoey.github.io/cyto-chromosome-vis/",
     "desc": "",
     "thumb": "http://i.imgur.com/VmvqHn5.png",
     "featured": false,
     "i": 5
   },
   {
-    "name": "inchlib",
+    "name": "x-inchlib",
     "link": "http://biojs.io/d/biojs-vis-inchlib",
     "desc": "",
     "thumb": "http://i.imgur.com/jKYN3kx.png",

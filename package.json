@@ -1,7 +1,7 @@
 {
-  "name": "biojs3",
+  "name": "biojs-next",
   "version": "0.0.0",
-  "description": "biojs3's site",
+  "description": "biojs next's site",
   "main": "index.js",
   "private": true,
   "dependencies": {
@@ -36,16 +36,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gl-modules/gl-modules.github.io.git"
+    "url": "https://github.com/biojs/next.git"
   },
   "contributors": [
     "David Dao <contact.daviddao@gmail.com>"
   ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/gl-modules/gl-modules.github.io/issues"
-  },
-  "homepage": "https://github.com/gl-modules/gl-modules.github.io",
+  "homepage": "https://github.com/biojs/next",
   "devDependencies": {
     "browserify": "^8.1.1",
     "uglify-js": "^2.4.16",

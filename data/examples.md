@@ -11,30 +11,30 @@ To add a new example:
   There should only be only featured example at any one time.
 
 
-## *[bio-pv](http://biojs.io/d/bio-pv)*
+## *[x-bio-pv](http://daviddao.github.io/x-bio-pv/components/x-bio-pv/)*
 
 ![bio-pv](http://i.imgur.com/1cE2pDh.png)
 
-## *[d3-tree-of-life](http://bl.ocks.org/mbostock/c034d66572fd6bd6815a)*
+## *[exelixis](https://github.com/daviddao/exelixis)*
 
-![d3-tree-of-life](http://i.imgur.com/MFSMd7k.png)
+![exelixis](http://i.imgur.com/MFSMd7k.png)
 
-## [angularplasmid](http://biojs.io/d/angularplasmid)
+## [x-angularplasmid](http://biojs.io/d/angularplasmid)
 
 ![angularplasmid](http://i.imgur.com/FN9cOrR.png)
 
-## [muts-needle-plots](http://biojs.io/d/muts-needle-plots)
+## [x-muts-needle-plot](http://daviddao.github.io/x-muts-needle-plot/components/x-muts-needle-plot/)
 
-![muts-needle-plots](http://i.imgur.com/UPPgUHM.png)
+![muts-needle-plot](http://i.imgur.com/UPPgUHM.png)
 
-## [drawrnajs](http://biojs.io/d/drawrnajs)
+## [x-drawrnajs](http://daviddao.github.io/x-drawrnajs)
 
 ![drawrnajs](http://i.imgur.com/V12HJy1.png)
 
-## [cyto-chromosome-vis](http://biojs.io/d/cyto-chromosome-vis)
+## [x-cyto-chromosome-vis](http://linjoey.github.io/cyto-chromosome-vis/ )
 
 ![cyto-chromosome-vis](http://i.imgur.com/VmvqHn5.png)
 
-## [inchlib](http://biojs.io/d/biojs-vis-inchlib)
+## [x-inchlib](http://biojs.io/d/biojs-vis-inchlib)
 
 ![inchlib](http://i.imgur.com/jKYN3kx.png)

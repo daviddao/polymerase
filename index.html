@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Polymerase</title>
+  <title>BioJS next</title>
 
   <link rel="stylesheet" href="index.css">
   <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300|Ubuntu+Mono' rel='stylesheet' type='text/css'>
 </head>
 <body>
   <main id="main" role="main">
-    <img src="biojs_64.png" style="height:38px;float:left;margin-right:10px"/><h1 class="title">Polymer<span class="lighter">ase</span></h1>
+    <img src="biojs_64.png" style="height:38px;float:left;margin-right:10px"/><h1 class="title">Bio<span class="lighter">JS</span> <span style='font-size:25px'>next</span></h1>
     <nav class="topnav">
       <ul><!--
       --><li><a href="#intro">introduction</a> / </li><!--
@@ -20,15 +20,13 @@
     </nav>
 
     <section class="intro">
-      Polymerase is an open software ecosystem for visualizing biological data on the web, built on top of
+      BioJS next is an open software ecosystem for visualizing biological data on the web, built on top of
       <a target="_blank" href="http://browserify.org">browserify</a>, <a target="_blank" href="https://www.polymer-project.org/1.0/">polymer</a> and
-      <a target="_blank" href="http://npmjs.org">npm</a>. Inspired by the
-      <a target="_blank" href="https://en.wikipedia.org/wiki/Unix_philosophy">Unix philosophy</a>,
-      Polymerase components &quot;<em>do one thing, and do it well</em>&quot;. Polymerase follows the <a target="_blank" href="http://webcomponents.org/">web component standard</a>, which makes it easy for biologists to plug in Polymerase components into their website.
+      <a target="_blank" href="http://biojs.io">biojs</a>. Our vision is that &quot;<em>every online biological dataset in the world should be visualised with web components</em>&quot;. BioJS next follows the <a target="_blank" href="http://webcomponents.org/">web component standard</a>, which makes it easy for biologists to plug in next components into their website.
     </section>
 
     <section id="examples" class="examples">
-      <h2>Polymerase components</h2>
+      <h2>next components</h2>
       <ul class="thumbs thumbs-trio"></ul>
     </section>
 
@@ -40,16 +38,12 @@
         if you have any questions!
       </p>
       <ul>
-        <li>GitHub: <a href="http://github.com/polymerase-project">github.com/polymerase-project</a></li>
+        <li>GitHub: <a href="http://github.com/biojs/biojs">github.com/biojs/next</a></li>
       </ul>
       <p>
-        polymerase is only possible thanks to the excellent work of our contributors:
-      </p>
-      <ul>
-        <li><a target="_blank" href="http://twitter.com/daviddao_">David Dao</a> (Broad Institute of MIT & Harvard)</li>
-      </ul>
+        BioJS next is only possible thanks to the excellent work of our contributors!
       <p>
-        <em>web design based on the gorgeous <a href="http://github.com/stackgl">stackgl</a> project</em>
+        <em>web design based on <a href="https://github.com/hughsk">@hughhsk</a> and edited by <a href="https://github.com/daviddao">@daviddao</a></em>
       </p>
     </section>
   </main>
@@ -80,10 +74,9 @@
 
 </style>
 
-<script charset="utf-8" src="/build/bundle.min.js" defer="defer" async="async"></script>
+<script charset="utf-8" src="http://daviddao.github.io/polymerase/build/bundle.min.js" defer="defer" async="async"></script>
 <!--   <script charset="utf-8" src="/build/splash.min.js" defer="defer" async="async"></script>
  -->  
-<script src="//cdn.webglstats.com/stat.js" defer="defer" async="async"></script>
 <!-- Example Bio PV of Molecule 4008, Crispr CAS9 on DNA -->
 <script>
 var pv = require("bio-pv");
@@ -126,7 +119,7 @@ function load(name, pdbId) {
 
 // load default
 load('CAS9', '4oo8')
-//load('Polymerase','1ZQA')
+//load('BioJS','1ZQA')
 
 // tell viewer to resize when window size changes.
 window.onresize = function(event) {
